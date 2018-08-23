@@ -1,0 +1,153 @@
+#registration_div{
+	display: flex;
+	justify-content: center;
+}
+#header_div{
+	color: #ffff;
+	display: flex;
+	justify-content: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#header_div nav{
+	width: 100%;
+	padding-left: 10px;
+}
+#registration_card{
+	margin-top: 50px;
+	width: 50%;
+	height: 500px;
+}
+.panel-heading{
+	background-color: #292929;
+	color: #ffff
+}
+#login-reg{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#dashboard-div{
+	width: 100%;
+	display: flex;
+	flex: wrap;
+	align-content: flex-start;
+	margin-left: 10px;
+	border-radius: 3px;
+}
+#login-reg h4{
+	font-weight: 800;
+}
+#register-panel{
+	width: 40%;
+	padding: 5px;
+}
+#login-panel{
+	width: 40%;
+	padding: 5px;
+}
+#card-order{
+	font-size: 50px;
+	color: white;
+}
+#new-order{
+	width: 50%;
+	float: left;
+	padding-right: 10px;
+}
+#new-order-btn{
+	width: 100%;
+	height: 100%;
+}
+#new-order-btn h2{
+	font-size: 30px;
+}
+.panel-div{
+	padding: 5px;
+}
+#weather-div{
+	width: 50%;
+	height: 75px;
+	float: left;
+}
+#weather{
+	padding-left: 10px;
+	padding-top: 12px;
+	width: 100%;
+	height: 100%;
+	background-color: #428bca;
+}
+#weather img{
+	float: left;
+	height: 100%;
+	margin-top: -5px;
+}
+#weather h2{
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 40px;
+}
+#weather-order-desc{
+	width: 100%;
+}
+#order-weather{
+	width: 50%;
+	float: left;
+}
+#passport-div{
+	width: 100%;
+	height: 200px;
+	margin-top: 5px;
+	float: left;
+}
+#passport-div p{
+	margin: 0 0 1px;
+}
+#passport-react{
+	width: 100%;
+	height: 100%;
+}
+#graph-div{
+	width: 100%;
+	height: 500px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	float: left;
+}
+#chart-itself{
+	width: 100%;
+	height: 700px;
+	margin-left: 30px;
+	padding-right: 20px;
+}
+#map-div{
+	height: 1000px;
+	width: 50%;
+	padding-left: 10px;
+	float: left;
+}
+#map-view{
+	width: 100%;
+	height: 100%;
+}
+.leaflet-container{
+	width: 100%;
+	height: 1000px;
+}
+@media screen and (max-width: 999px){
+	#order-weather{
+		width: 100%;
+		float: left;
+		padding-right: 20px;
+	}
+	#graph-div{
+		height: 400px;
+	}
+	#chart-itself{
+		height: 300px;
+	}
+	#map-div{
+		width: 100%;
+	}
+}
